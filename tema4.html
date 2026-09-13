@@ -1,11 +1,351 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi espacio universitario</title>
 </head>
 <body>
-    
+
+  <header>
+    <h1>Mi espacio universitario</h1>
+    <p>Un espacio para conocer mi proceso de formacion como futuro profesional.</p>
+  </header>
+
+  <nav>
+    <a href="#sobre-mi">mi perosna</a>
+    <a href="#intereses">Intereses</a>
+    <a href="#multimedia">Multimedia</a>
+    <a href="#horario">Horario</a>
+    <a href="#contacto">contactame</a>
+    <a href="#computacion-nube">Computación en la nube</a>
+  </nav>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mi</h2>
+      <p>Mi nombre es <strong>johann sebatian romero</strong> y estudio 
+        <em>Ingenieria de Sistemas</em>, en la Institución Universitaria Antonio Jose Camacho</p>
+
+      <p>Actualmente estoy aprendiendo los principios del desarrollo de una 
+         <abbr title="HyperText Markup Language">PAGINA WEB</abbr>, aunque 
+         <del>pense que seria facil</del> 
+         <ins>ahora se que lo que se ve no es facil</ins>, aun asi hay que sacar tiempo para aprender.</p>
+
+      <p>Para calcular un angulo puedo usar la funcion tangente: si tan(θ) = 
+          cateto opuesto / cateto adyacente, entonces θ = tan<sup>-1</sup>(opuesto / adyacente).</p>
+
+      <p>Actualmente trabajo en un experimento sobre friccion usando como materiales
+           un pitillo de cafe y una superficie lisa de 11 cm de largo por 7 cm de ancho, 
+           midiendo con una regla. El coeficiente de friccion se calcula como &mu;<sub>s</sub> = tan(θ), donde θ es el angulo critico de deslizamiento, y la fuerza 
+           de friccion se obtiene con F<sub>f</sub> = &mu;<sub>s</sub> &times; N.</p>
+
+      <p>Actualmente curso <mark>Fundamentos de Programacion Web</mark>.</p>
+
+      <blockquote cite="https://www.applesfera.com/nuevo/frases-steve-jobs-inspiradoras-exito-creatividad">
+        <p>La innovación distingue un líder de un seguidor.</p>
+      </blockquote>
+      <p>Fuente: <a href="https://www.applesfera.com/nuevo/frases-steve-jobs-inspiradoras-exito-creatividad" target="_blank">Applesfera - Frases de Steve Jobs</a></p>
+
+    </section>
+
+    <section id="intereses">
+  <h2>Intereses</h2>
+
+  <h3>Mis intereses</h3>
+  <ul>
+    <li>Desarrollo de software</li>
+    <li>Inteligencia artificial</li>
+    <li>desarrollo de videojuegos</li>
+  </ul>
+
+  <h3>Tecnologias que deseo aprender</h3>
+  <ol>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Java</li>
+    <li>C Sharp</li>
+  </ol>
+
+  <h3>Definiciones basicas</h3>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Lenguaje que se usa para estructurar el contenido de una pagina web mediante etiquetas.</dd>
+    <dt>CSS</dt>
+    <dd>Lenguaje que permite dar estilo y diseno visual a los elementos de una pagina web.</dd>
+    <dt>JavaScript</dt>
+    <dd>Lenguaje de programacion que permite agregar interactividad y comportamiento dinamico a una pagina web.</dd>
+  </dl>
+</section>
+
+<section id="recursos">
+  <h2>Recursos y contacto</h2>
+
+  <h3>fuentes de apoyo para el aprendizaje sobre paginas web</h3>
+  <ul>
+    <li><a href="https://developer-mozilla-org.translate.goog/en-US/docs/Web/HTML?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc" target="_blank"> MDN Web Docs</a>  documentación oficial de HTML/CSS/JS, mantenida por Mozilla.</li>
+    <li><a href="https://www-w3schools-com.translate.goog/about/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc" target="_blank">W3Schools</a>  tutoriales con ejemplos interactivos, muy usado por principiantes.</li>
+    <li><a href="https://stackoverflow.com/questions" target="_blank">Stack Overflow</a>  para resolver dudas puntuales de código, aunque no es un tutorial como tal.</li>
+  </ul>
+
+  <h3>Contacto</h3>
+  <p><a href="mailto:jsromero@estudiante.uniajc.edu.co">Enviarme un correo</a></p>
+</section>
+
+<section id="multimedia">
+  <h2>Multimedia</h2>
+
+  <figure>
+    <img src="multimedia/imagen 1.png" alt="Fotografia de perfil del estudiante">
+    <figcaption>Mi foto de perfil como estudiante de Ingenieria de Sistemas.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="multimedia/imagen 2.png" alt="Fotografia relacionada con el experimento de friccion">
+    <figcaption>estos son los materiales que supervisa el cabibara para el experimento de friccion: pitillo de cafe y superficie lisa.</figcaption>
+  </figure>
+
+</section>
+
+<h3>Audio</h3>
+<audio controls>
+  <source src="multimedia/audio.mp3" type="audio/mpeg">
+  Su navegador no soporta audio HTML5.
+</audio>
+
+<section id="horario">
+  <h2>Horario academico</h2>
+
+  <table>
+    <caption>Horario academico - Semestre actual</caption>
+    <thead>
+      <tr>
+        <th>Asignatura</th>
+        <th>Dia</th>
+        <th>Hora</th>
+        <th>Modalidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fundamentos Web</td>
+        <td>Lunes</td>
+        <td>7 am</td>
+      </tr>
+
+       <tr>
+        <td>Fisica 2</td>
+        <td>Martes</td>
+        <td>7 am</td>
+      </tr>
+ <tr>
+        <td>laboratorio 2</td>
+        <td>martes cada 15 dias</td>
+        <td>10 am</td>
+      </tr>
+      <tr>
+        <td>programacion 3</td>
+        <td>Miercoles</td>
+        <td>7 am.</td>
+      </tr>
+     
+      <tr>
+        <td>ingenieria de software</td>
+        <td>Jueves</td>
+        <td>7 am</td>    
+      </tr>
+      <tr>
+        <td>principios de economia</td>
+        <td>jueves</td>
+        <td>10 am</td>
+      </tr>
+
+      <tr>
+        <td>calculo vectorial</td>
+        <td>viernes</td>
+        <td>7 am</td>
+      </tr>
+
+      <tr>
+        <td>liderazgo y emprendimiento</td>
+        <td>viernes</td>
+        <td>10 am</td>
+      </tr>
+
+    </tbody>
+  </table>
+</section>
+
+<section id="contacto">
+  <h2>Formulario de contacto</h2>
+
+  <form>
+    <fieldset>
+      <legend>Informacion personal</legend>
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre"><br><br>
+
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" name="correo"><br><br>
+
+      <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+      <input type="date" id="fecha-nacimiento" name="fecha-nacimiento"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Informacion academica</legend>
+
+      <label for="semestre">Semestre:</label>
+<select id="semestre" name="semestre">
+  <option value="">Seleccione</option>
+  <option value="1">Primer semestre</option>
+  <option value="2">Segundo semestre</option>
+  <option value="3">Tercer semestre</option>
+  <option value="4">Cuarto semestre</option>
+  <option value="5">Quinto semestre</option>
+  <option value="6">Sexto semestre</option>
+  <option value="7">Septimo semestre</option>
+  <option value="8">Octavo semestre</option>
+  <option value="9">Noveno semestre</option>
+  <option value="10">Decimo semestre</option>
+</select><br><br>
+
+      <label for="materias">Numero de materias matriculadas:</label>
+      <input type="number" id="materias" name="materias" min="1" max="10"><br><br>
+
+      <label for="satisfaccion">Nivel de satisfaccion con el curso (1 a 10):</label>
+      <input type="range" id="satisfaccion" name="satisfaccion" min="1" max="10"><br><br>
+
+      <p>Modalidad preferida:</p>
+      <input type="radio" id="modalidad-virtual" name="modalidad" value="virtual">
+      <label for="modalidad-virtual">Virtual</label>
+
+      <input type="radio" id="modalidad-presencial" name="modalidad" value="presencial">
+      <label for="modalidad-presencial">Presencial</label><br><br>
+
+      <p>Intereses (puede marcar mas de uno):</p>
+      <input type="checkbox" id="interes-ia" name="intereses" value="ia">
+      <label for="interes-ia">Inteligencia artificial</label>
+
+      <input type="checkbox" id="interes-web" name="intereses" value="web">
+      <label for="interes-web">Desarrollo web</label>
+
+      <input type="checkbox" id="interes-fisica" name="intereses" value="fisica">
+      <label for="interes-fisica">Fisica aplicada</label><br><br>
+
+      <label for="comentario">Comentario:</label><br>
+      <textarea id="comentario" name="comentario" rows="5" cols="40"></textarea>
+    </fieldset>
+
+    <br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpiar</button>
+  </form>
+</section>
+
+<section id="notas">
+  <h2>Notas adicionales</h2>
+
+  <article>
+    <h3>Reflexion sobre el experimento de friccion</h3>
+    <p>Este experimento sobre friccion, usando un pitillo de cafe y una superficie lisa de 11 cm por 7 cm, me ha permitido entender de forma practica como se calcula el coeficiente de friccion y el angulo critico de deslizamiento, conectando la teoria de fisica con una medicion real.</p>
+  </article>
+
+  <aside>
+    <p>Dato curioso: el coeficiente de friccion no depende del area de contacto entre las superficies, solo depende de los materiales involucrados y del angulo critico.</p>
+  </aside>
+
+  <hr>
+
+  <details>
+    <summary>¿Que estoy aprendiendo en este taller?</summary>
+  </details>
+
+<p>Estoy aprendiendo la estructura basica de documentos HTML: encabezados, listas, tablas, formularios y elementos semanticos, sin usar CSS ni JavaScript.</p>
+
+  <p>Para guardar el archivo puedo utilizar <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+
+  <pre><code>&lt;h1&gt;Hola mundo&lt;/h1&gt;</code></pre>
+
+  <p>Progreso actual del taller:</p>
+  <progress value="80" max="100">80%</progress>
+
+  <p>Nivel de satisfaccion con el curso (escala de 0 a 10):</p>
+  <meter min="0" max="10" value="8">8 de 10</meter>
+</section>
+
+<section id="computacion-nube">
+  <h2>Computación en la nube</h2>
+
+  <h3>¿Qué es un servicio cloud?</h3>
+  <p>Un servicio cloud (computación en la nube) es un modelo de entrega de recursos informáticos
+     -servidores, almacenamiento, bases de datos, redes, software- a través de internet, en lugar de
+     tenerlos instalados en un equipo o servidor físico propio. El proveedor del servicio se encarga
+     del mantenimiento de la infraestructura y el usuario paga generalmente segun el uso que le da.</p>
+
+  <h3>Características principales</h3>
+  <ul>
+    <li><strong>Acceso bajo demanda:</strong> los recursos se activan cuando se necesitan, sin intervencion manual del proveedor.</li>
+    <li><strong>Acceso remoto:</strong> se puede usar desde cualquier dispositivo con conexion a internet.</li>
+    <li><strong>Elasticidad y escalabilidad:</strong> los recursos pueden aumentar o disminuir segun la demanda.</li>
+    <li><strong>Pago por uso:</strong> el costo depende del consumo real de almacenamiento, procesamiento o transferencia.</li>
+    <li><strong>Recursos compartidos:</strong> la infraestructura del proveedor es utilizada por multiples clientes de forma simultanea.</li>
+  </ul>
+
+  <h3>Ventajas y ejemplos</h3>
+  <table>
+    <caption>Modelos de servicio en la nube y ejemplos</caption>
+    <thead>
+      <tr>
+        <th>Modelo</th>
+        <th>Descripcion</th>
+        <th>Ejemplos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>IaaS (Infraestructura como servicio)</td>
+        <td>Ofrece servidores, redes y almacenamiento virtualizados.</td>
+        <td>Amazon EC2, Microsoft Azure VM, Google Compute Engine</td>
+      </tr>
+      <tr>
+        <td>PaaS (Plataforma como servicio)</td>
+        <td>Ofrece un entorno para desarrollar y desplegar aplicaciones sin gestionar servidores.</td>
+        <td>Google App Engine, Heroku, Azure App Service</td>
+      </tr>
+      <tr>
+        <td>SaaS (Software como servicio)</td>
+        <td>Entrega aplicaciones ya construidas listas para usar desde el navegador.</td>
+        <td>Google Workspace, Microsoft 365, Dropbox</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Entre las principales ventajas de la nube se encuentran el ahorro en inversion de hardware propio,
+     la posibilidad de escalar recursos rapidamente, el acceso desde cualquier lugar, las copias de
+     seguridad automaticas y la reduccion de tareas de mantenimiento tecnico para el usuario final.</p>
+
+  <h3>Riesgos</h3>
+  <ul>
+    <li><strong>Dependencia del proveedor:</strong> si el servicio falla o cambia sus condiciones, el usuario queda limitado.</li>
+    <li><strong>Dependencia de la conexion a internet:</strong> sin conexion no es posible acceder a los recursos.</li>
+    <li><strong>Seguridad y privacidad de los datos:</strong> la informacion se almacena en servidores de terceros.</li>
+    <li><strong>Costos variables:</strong> un uso mal calculado puede generar gastos mayores a los esperados.</li>
+    <li><strong>Posible perdida de control</strong> sobre la ubicacion fisica y gestion directa de los datos.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Taller 1 - Construccion de una pagina web utilizando unicamente HTML.</p>
+  <p>Asignatura: Fundamentos WEB | Grupo: 4303 | Profesor: Ronal Andres Tamayo</p>
+  <address>
+    Johann Sebastian Romero - Estudiante de Ingenieria de Sistemas<br>
+    Institución Universitaria Antonio Jose Camacho (UNIAJC)<br>
+    Correo: <a href="mailto:jsromero@estudiante.uniajc.edu.co">jsromero@estudiante.uniajc.edu.co</a>
+  </address>
+</footer>
+
+  </main>
 </body>
 </html>
