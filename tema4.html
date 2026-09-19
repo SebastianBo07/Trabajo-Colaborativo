@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computación en la nube</title>
 </head>
 <body>
-    
+  <header>
+    <h1>Computación en la nube</h1>
+    <p>Conceptos, características, modelos de servicio y riesgos de la computación en la nube.</p>
+  </header>
+
+  <nav>
+    <a href="#computacion-nube">Computación en la nube</a> |
+    <a href="#referencias">Referencias</a>
+  </nav>
+
+  <main>
+    <section id="computacion-nube">
+      <h2>Computación en la nube</h2>
+
+      <h3>¿Qué es un servicio cloud?</h3>
+      <p>Un servicio cloud (computación en la nube) es un modelo de entrega de recursos informáticos
+         -servidores, almacenamiento, bases de datos, redes, software- a través de internet, en lugar de
+         tenerlos instalados en un equipo o servidor físico propio. El proveedor del servicio se encarga
+         del mantenimiento de la infraestructura y el usuario paga generalmente según el uso que le da.</p>
+
+      <img src="img/tema4.jpg" alt="Diagrama de un servicio en la nube conectando varios dispositivos a servidores remotos">
+
+      <h3>Características principales</h3>
+      <ul>
+        <li><strong>Acceso bajo demanda:</strong> los recursos se activan cuando se necesitan, sin intervención manual del proveedor.</li>
+        <li><strong>Acceso remoto:</strong> se puede usar desde cualquier dispositivo con conexión a internet.</li>
+        <li><strong>Elasticidad y escalabilidad:</strong> los recursos pueden aumentar o disminuir según la demanda.</li>
+        <li><strong>Pago por uso:</strong> el costo depende del consumo real de almacenamiento, procesamiento o transferencia.</li>
+        <li><strong>Recursos compartidos:</strong> la infraestructura del proveedor es utilizada por múltiples clientes de forma simultánea.</li>
+      </ul>
+
+      <h3>Ventajas y ejemplos</h3>
+      <table>
+        <caption>Modelos de servicio en la nube y ejemplos</caption>
+        <thead>
+          <tr>
+            <th>Modelo</th>
+            <th>Descripción</th>
+            <th>Ejemplos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>IaaS (Infraestructura como servicio)</td>
+            <td>Ofrece servidores, redes y almacenamiento virtualizados.</td>
+            <td>Amazon EC2, Microsoft Azure VM, Google Compute Engine</td>
+          </tr>
+          <tr>
+            <td>PaaS (Plataforma como servicio)</td>
+            <td>Ofrece un entorno para desarrollar y desplegar aplicaciones sin gestionar servidores.</td>
+            <td>Google App Engine, Heroku, Azure App Service</td>
+          </tr>
+          <tr>
+            <td>SaaS (Software como servicio)</td>
+            <td>Entrega aplicaciones ya construidas listas para usar desde el navegador.</td>
+            <td>Google Workspace, Microsoft 365, Dropbox</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Entre las principales ventajas de la nube se encuentran el ahorro en inversión de hardware propio,
+         la posibilidad de escalar recursos rápidamente, el acceso desde cualquier lugar, las copias de
+         seguridad automáticas y la reducción de tareas de mantenimiento técnico para el usuario final.</p>
+
+      <h3>Riesgos</h3>
+      <ul>
+        <li><strong>Dependencia del proveedor:</strong> si el servicio falla o cambia sus condiciones, el usuario queda limitado.</li>
+        <li><strong>Dependencia de la conexión a internet:</strong> sin conexión no es posible acceder a los recursos.</li>
+        <li><strong>Seguridad y privacidad de los datos:</strong> la información se almacena en servidores de terceros.</li>
+        <li><strong>Costos variables:</strong> un uso mal calculado puede generar gastos mayores a los esperados.</li>
+        <li><strong>Posible pérdida de control:</strong> sobre la ubicación física y gestión directa de los datos.</li>
+      </ul>
+    </section>
+
+    <section id="referencias">
+      <h2>Referencias</h2>
+      <ol>
+        <li>
+          <a href="https://www.atlassian.com/es/microservices/cloud-computing">¿Qué es la computación en la nube?</a>
+          </li>
+      <li>
+          <a href="https://contabo.com/blog/es/ventajas-y-desventajas-de-la-computacion-en-la-nube/?utm_source=google&utm_medium=cpc&utm_campaign=vps_price_test&utm_source=google&utm_medium=cpc&utm_campaign=&utm_term=&utm_content=&gad_source=1&gad_campaignid=24250917296&gclid=CjwKCAjwwrPVBhA1EiwAv_YO-U3DxWAWFJ2HdBCsJU5Q0_rw95xm7giCnQvCUfpn_DkLL9T8DpOi0xoCkgkQAvD_BwE" target="_blank" rel="noopener">ventajas y desventajas de la computacion en la nube</a>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Fundamentos Web: Grupo 4303 - Ingeniería de Sistemas</p>
+  </footer>
 </body>
 </html>
