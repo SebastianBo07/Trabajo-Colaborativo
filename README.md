@@ -125,3 +125,21 @@ Correcciones realizadas:
         </tr>
     </tbody>
 </table> 
+
+## Paleta de color multitemática
+- **Primary:** `#0f172a` (Azul profundo: Computación Cuántica e IA)
+- **Secondary:** `#0284c7` (Azul cian: Programación en la Nube)
+- **Accent:** `#10b981` (Verde esmeralda: Ciudades Inteligentes y sostenibilidad)
+- **Background:** `#f8fafc` (Fondo claro general)
+- **Surface:** `#ffffff` (Superficie de contenedores)
+- **Text:** `#334155` (Texto principal)
+
+**Justificación:** 
+La paleta unifica visualmente los cuatro pilares tecnológicos del equipo (IA, cuántica, nube y ciudades inteligentes) utilizando tonos oscuros de alta tecnología combinados con cian y un acento verde que representa la conectividad y el desarrollo urbano sostenible, garantizando un contraste óptimo bajo la normativa WCAG.
+
+## Prueba de cascada
+- **Resultado del selector de elemento:** El título toma el color azul definido por la regla general de la etiqueta `h2`[cite: 2].
+- **Resultado de la clase:** El título cambia a color verde al aplicarle la clase `.demo-title`, debido a que las clases tienen mayor especificidad que los selectores de elemento[cite: 2].
+- **Resultado del ID:** El título cambia a color morado al incorporar el selector `#demo-title`, ya que los selectores ID poseen un peso y especificidad superior a las clases[cite: 2].
+- **Resultado del estilo inline:** El título se muestra de color naranja al añadir un atributo `style` directamente en el elemento HTML, superando a las reglas normales de la hoja externa[cite: 2].
+- **Explicación:** El algoritmo de la cascada y la especificidad resuelven los conflictos de estilo priorizando los selectores según su peso (Elemento < Clase < ID < Estilo inline), permitiendo que el navegador determine de forma predecible qué regla se aplica[cite: 2].
